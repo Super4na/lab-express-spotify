@@ -1,0 +1,107 @@
+
+
+ .frontPage {
+    background-image: url("/images/spotify-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;    
+   
+}
+
+button {
+    margin-top: 5px;
+    margin-left:15px;
+    border:none;
+    color: white;
+    background-color:red;
+    border-radius: 5%;
+}
+
+a {
+    margin-top: 10px;
+    border-style:solid;
+    border-color: rgb(248, 116, 116);
+    color: white;
+    background-color:rgb(248, 116, 116);
+    border-radius: 10%;
+    font-style: none;
+}   
+
+
+.search{
+  
+    background-color:white;
+    opacity: 50%;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+    width:500px;
+}
+
+.row{ 
+margin-left: 5%;
+margin-top: 5%;
+}
+
+.col-md-4{
+    padding: 2% 2% 2% 2%;
+}
+
+#name {
+    font-weight: bold;
+}
+ 
+.artistDescription {
+    height:100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    width: 300px;
+}
+
+.albumsDescriptions {
+    height:100px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    width: 300px;
+}
+
+.tracksHeader {
+    background-color:rgb(51, 47, 47);
+    color:cornsilk;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-top:5px;
+    padding-left:10px;
+    background-color: rgb(163, 161, 161);
+}
+/* 
+
+.col-md-4 {
+    
+    border-style: solid;
+    border-color: darkgrey;
+    background: grey;
+    width: 300px;
+}
+
+img {
+    width: 300px;
+} */
